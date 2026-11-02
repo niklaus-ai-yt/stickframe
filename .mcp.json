@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "stickframe": {
+      "command": "node",
+      "args": ["bin/stickframe-mcp.js"]
+    }
+  }
+}

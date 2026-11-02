@@ -1,0 +1,39 @@
+{
+  "name": "stickframe",
+  "version": "1.0.0",
+  "description": "Stickframe: a free, open-source studio that turns a voiceover into an animated stick-figure video, directed by any AI chatbot or the Claude desktop app.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "main": "server/index.js",
+  "bin": {
+    "stickframe": "bin/stickframe.js",
+    "sf": "bin/sf.js"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js --no-open",
+    "sf": "node bin/sf.js",
+    "check": "node tools/selftest.mjs",
+    "gallery": "node tools/gallery.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/lilita-one": "^5.3.0",
+    "@fontsource/rubik": "^5.3.0",
+    "@huggingface/transformers": "^4.3.1",
+    "@napi-rs/canvas": "^1.0.13"
+  },
+  "keywords": [
+    "animation",
+    "stick figure",
+    "video",
+    "claude",
+    "youtube",
+    "explainer",
+    "whisper"
+  ]
+}

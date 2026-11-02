@@ -1,0 +1,11 @@
+{
+  "name": "stickframe-free-voice",
+  "version": "1.0.0",
+  "description": "Optional free local text-to-speech for Stickframe, using Kokoro.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "kokoro-js": "1.2.1"
+  }
+}
